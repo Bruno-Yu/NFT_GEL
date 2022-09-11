@@ -67,14 +67,14 @@ $colors: (
 // scss-docs-end colors-map
 
 // scss-docs-start theme-color-variables
-$primary: #e6553b; // $blue !default;
-$secondary: #f0f0f0 !default; //背景
+$primary:#373F47;//#373F47;// #7DE2D1 ;//#e6553b; // $blue !default;
+$secondary:#aeaeab; //#8B8982;// #2B2C28 ;// #f0f0f0 !default; //背景
 $success: $green !default;
-$info: #808080 !default; //部分副標題
+$info: #141d21;//#339989;//#808080 !default; //部分副標題
 $warning: $yellow !default;
 $danger: $red !default;
-$light: $gray-100 !default;
-$dark: $gray-900 !default;
+$light: #FFFAFB !default;
+$dark: $gray-900 !default; //#373F47
 $transparent: transparent;
 // scss-docs-end theme-color-variables
 
@@ -315,7 +315,7 @@ $body-text-align: null !default;
 //
 // Style anchor elements.
 
-$link-color: $black !default;
+$link-color: $primary !default;
 $link-decoration: none !default;
 $link-shade-percentage: 20% !default;
 $link-hover-color: $primary; //shift-color($link-color, $link-shade-percentage) !default;
@@ -410,7 +410,7 @@ $border-widths: (
   16: 16px,
 ) !default;
 
-$border-color: $black !default;
+$border-color: $black;// $black !default;
 // scss-docs-end border-variables
 
 // scss-docs-start border-radius-variables
